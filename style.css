@@ -9,9 +9,13 @@ body {
   }
 
 
+
+    
+
+
+
+
   /* TITOLO */
-
-
 .header {
     background-color:#2B2D42;
     color: #EDF2F4;
@@ -45,6 +49,14 @@ display: flex;
     margin-top: 253px;
 }
 
+
+@media screen and (max-width: 600px)
+ {
+    .contenitoretesto {
+        margin-top: 53px;
+
+    }
+ }
 .titolosito h1 {
     color: #2B2D42;
     font-size: 50px;
@@ -86,3 +98,8 @@ display: flex;
   .download-button:hover {
     background-color:#D90429;
   }
+
+  /* bottone */ 
+  .download-button {
+    margin-left: -1027px;
+}
