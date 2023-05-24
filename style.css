@@ -1,105 +1,87 @@
+
 body {
-    font-family: 'League Spartan', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #EDF2F4;
-  } 
-  strong {
-    color: #D90429;
-  }
+    font-family:'League Spartan', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #0f0505;
+}
 
-
-
-    
-
-
-
-
-  /* TITOLO */
-.header {
-    background-color:#2B2D42;
-    color: #EDF2F4;
-    padding: 10px;
-display: flex;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 50px;
-    font-size: 25px;
+.row {
+   
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important; 
+}
+#col1 {
+    display: flex;
     justify-content: center;
-  }
-  
-  nav ul li a {
-    color: #EDF2F4;
-    text-decoration: none;
-  }
-/* testo*/
-
-.contenitoretesto {
-    margin-left: 52px;
-    margin-top: 50;
-    height: 50px;
-    margin-top: 253px;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 95%;
+    margin-left: 5%;
+}
+div#navbarNav {
+    margin-left: 30%;
 }
 
 
-@media screen and (max-width: 600px)
- {
-    .contenitoretesto {
-        margin-top: 53px;
-
-    }
- }
-.titolosito h1 {
-    color: #2B2D42;
-    font-size: 50px;
-    margin-left: 50px;
+h1 {
+    width: fit-content;
+    margin-right: 0px;
 }
 
-.titolosito p {
-    color: #515966;
-    font-size: 25px;
-    margin-top: -25px;
-    margin-left: 214px;
+h2 {
+    width: fit-content;
+    margin-right: 0px;
 }
-.sottotitolo h2 {
-    color: #2B2D42;
-    font-size: 38px;
-    margin-top: 50px;
-    margin-left: 149px;
-}
- 
-  /* img */ 
-  img {
-    height: -175%;
-    height: 381px;
-    margin-left: 948px;
-    margin-top: -167px;
+p{
+    width: fit-content;
+    margin-right: 0px;
 }
 
-/* bottone cv */
-.download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #2B2D42;
-    color: white;
-    text-decoration: none;
-    border-radius: 15px;
-    font-weight: bold;
-  }
+#col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .download-button:hover {
-    background-color:#D90429;
-  }
+.iconhome {
+    display: flex;
+    align-items: center;
+}
+/*-------------------menu---------------------*/
+.nav-color {
+    background-color:#1D3557;
+}
 
-  /* bottone */ 
-  .download-button {
-    margin-left: -1027px;
+.navbar-light .navbar-nav .nav-link.navcustomcolor {
+    color: #F1FAEE;
+}
+.navbar-light .navbar-nav .nav-link.navcustomcolor:hover {
+    color: red;
+}
+
+svg.bi.bi-code {
+    color: #F1FAEE;
+    position: relative;
+    top: 1px;
+    height: 42px;
+    width: 42px;
+}
+span {
+    color: #F1FAEE;
+}
+
+.icon-home {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-home.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
 }
