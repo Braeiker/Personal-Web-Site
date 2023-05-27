@@ -9,6 +9,10 @@ body {
     background-color: #0f0505;
 }
 
+ul.navbar-nav {
+    margin-left: 0%;
+}
+
 /*-------------------menu---------------------*/
 
 #col1 {
@@ -209,3 +213,21 @@ a {
     -webkit-text-decoration-skip: objects;
     font-family: 'Roboto Slab', serif;
 }
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+@media only screen and (max-width:992px) {
+    .navbar-nav {
+                    flex-direction: row !important;
+                    margin-left: -37%;
+                    justify-content: space-between;
+                    margin-top: 2%;
+    }
+ }
