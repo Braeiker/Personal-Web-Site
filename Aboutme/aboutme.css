@@ -117,7 +117,7 @@ span {
     background-image:url(icon/icon-cv.svg);
     display: block;
     float: left;
-    margin-right: 4px;
+    margin-right: -40px;
 }
 .icon-aboutme {
     height: 24px;
@@ -125,7 +125,7 @@ span {
     background-image:url(icon/icon-aboutme.svg);
     display: block;
     float: left;
-    margin-right: 4px;
+    margin-right: -40px;
 }
 
 
@@ -146,6 +146,23 @@ p {
 strong {
     color: red;
 }
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
 
 /*/////////////////////////////////////////////////////////////////*/                  
 
+@media only screen and (max-width:992px) {
+    .navbar-nav {
+                    flex-direction: row !important;
+                    margin-left: -37%;
+                    justify-content: space-between;
+                    margin-top: 2%;
+    }
+ }

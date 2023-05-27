@@ -141,3 +141,20 @@ p {
 strong {
     color: red;
 }
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+ @media only screen and (max-width:992px) {
+    .navbar-nav {
+                    flex-direction: row !important;
+                    margin-left: -37%;
+                    justify-content: space-between;
+                    margin-top: 2%;
+    }
+ }
