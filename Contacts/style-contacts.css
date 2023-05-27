@@ -1,0 +1,211 @@
+
+body {
+    margin: 0;
+    font-family:'League Spartan', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #0f0505;
+}
+
+/*-------------------menu---------------------*/
+
+#col1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 101%;
+    margin-left: 5%;
+}
+
+
+div#navbarNav {
+    margin-left: 28%;
+}
+
+
+h2 {
+    width: fit-content;
+    margin-right: 0px;
+}
+p{
+    width: fit-content;
+    margin-right: 0px;
+}
+
+#col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------------menu---------------------*/
+
+.iconhome {
+    display: flex;
+    align-items: center;
+}
+.nav-color {
+    background-color:#1D3557;
+}
+
+.navbar-light .navbar-nav .nav-link.navcustomcolor {
+    color: #F1FAEE;
+}
+.navbar-light .navbar-nav .nav-link.navcustomcolor:hover {
+    color: red;
+}
+
+svg.bi.bi-code {
+    color: #F1FAEE;
+    position: relative;
+    top: 1px;
+    height: 42px;
+    width: 42px;
+}
+span {
+    color: #F1FAEE;
+}
+
+.icon-contacts {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-contacts.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+
+.icon-home {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-home.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+.icon-cv {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-cv.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+.icon-aboutme {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-aboutme.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+
+/*---------------------ICON-------------------*/
+.icon-contacts {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-contacts.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+.icon-linkedin {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/.icon-linkedin.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+
+
+.icon-home {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-home.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+.icon-cv {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-cv.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+.icon-aboutme {
+    height: 24px;
+    width: 24px;
+    background-image:url(icon/icon-aboutme.svg);
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+
+
+strong {
+    color: red;
+}
+
+
+
+
+
+/*-----------------------PAGE-----------------------*/
+.media {
+    margin-top: 7%;
+}
+
+img.mr-3 {
+    width: 8%;
+}
+
+
+p.github-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 209%;
+        color: #1D3557 !important;
+}
+
+p.instagram-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 209%;
+        color:#1D3557 !important;
+}
+
+p.text-linkedin {
+    font-family: 'Roboto Slab', serif;
+    font-size: 209%;
+        color:#1D3557!important;
+}
+.contenier a  {
+    color: red !important;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+p.text-gmail {
+    font-family: 'Roboto Slab', serif;
+    font-size: 209%;
+    color:#1D3557!important;
+}
+
+a {
+
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    font-family: 'Roboto Slab', serif;
+}
