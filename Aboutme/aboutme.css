@@ -165,4 +165,7 @@ strong {
                     justify-content: space-between;
                     margin-top: 2%;
     }
+    ul.navbar-nav {
+        margin-left: -31%;
+    }
  }
