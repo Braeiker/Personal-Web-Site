@@ -47,10 +47,12 @@ a {
 
 
 div#navbarNav {
-    margin-left: 28%;
+    margin-left: 40%;
 }
-
-
+.name-logo {
+    margin-left: 181%;
+    margin-top: -188%;
+}
 h2 {
     width: fit-content;
     margin-right: 0px;
@@ -66,6 +68,7 @@ p{
     align-items: center;
 }
 
+
 .iconhome {
     display: flex;
     align-items: center;
@@ -74,28 +77,28 @@ p{
     background-color:#1D3557;
 }
 
-.navbar-light .navbar-nav .nav-link.navcustomcolor {
+.navbar-light .navbar-nav .nav-link.nav-custom-color {
     color: #F1FAEE;
 }
-.navbar-light .navbar-nav .nav-link.navcustomcolor:hover {
+.navbar-light .navbar-nav .nav-link.nav-custom-color:hover {
     color: red;
 }
 
 svg.bi.bi-code {
     color: #F1FAEE;
     position: relative;
-    top: 1px;
-    height: 42px;
-    width: 42px;
+    top: -5px;
+    height: 41px;
+    width: 37px;
 }
 span {
     color: #F1FAEE;
 }
 
+
 .icon-contacts {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-contacts.svg);
     display: block;
     float: left;
     margin-right: 4px;
@@ -105,7 +108,6 @@ span {
 .icon-home {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-home.svg);
     display: block;
     float: left;
     margin-right: 4px;
@@ -114,7 +116,6 @@ span {
 .icon-cv {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-cv.svg);
     display: block;
     float: left;
     margin-right: -40px;
@@ -122,7 +123,6 @@ span {
 .icon-aboutme {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-aboutme.svg);
     display: block;
     float: left;
     margin-right: -40px;

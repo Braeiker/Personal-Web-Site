@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuele Webisite! </title>
+    <title>Contacts </title>
     <link rel="stylesheet" href="style-contacts.css">
     <!--IMPORT BOOSTRAMP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,47 +16,44 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-<div class="menu">
-    <nav class="navbar navbar-expand-lg navbar-light nav-color">
-        <div class="iconhome">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
-                <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
-            </svg>
-            <span>samuele.portfolio</span>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="menu">
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <nav class="navbar navbar-expand-lg navbar-light nav-color">
+            <div class="icon-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
+                        <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+                    </svg>
+                    <div class="name-logo">
+                         <span>samuele.portfolio</span>
+                    </div>
+            </div>
+               
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link navcustomcolor" href="../index.html"> Home<span class="sr-only"></span></a>
+                    <a class="nav-link nav-custom-color" href="../index.html" target="_blank" rel="noopener"><span class=""></span>Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link navcustomcolor" href="../Contacts/contacts.html"></span>Contacts</a>
+                    <a class="nav-link nav-custom-color" href="../Contacts/contacts.html" target="_blank" rel="noopener"><span class=""></span>Contacts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navcustomcolor" href="../Aboutme/aboutme.html">About Me</a>
+                    <a class="nav-link nav-custom-color" href="../Aboutme/aboutme.html" target="_blank" rel="noopener"><span class=""></span>About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navcustomcolor" href="../mycv/cv.html"></span>My CV</a>
+                    <a class="nav-link nav-custom-color" href="../mycv/cv.html" target="_blank" rel="noopener"><span class=""></span>My CV</a>
                     </li>
-            </ul>
-        </div>
-    </nav>
-</div>
+                </ul>
+                </div>
+          </nav>
+    
+        </div>      
 <!--CONTAINER-->      
 <div class="container">
         <ul class="list-unstyled">
-            <li class="media">
-                <img class="mr-3" src="../img/gmail-gabb4c513d_1280.png" alt="Generic placeholder image">
-                <div class="media-body">
-                    <h1 class="mt-0 mb-1"><a href="mailto:samueletantillo@gmail.com">Gmail</a></h1>
-                    <p class="text-gmail">"This is my personal email where I check my messages daily"</p>
-            </div>
-        </li>   
-           
+            
              <li class="media">
                 <img class="mr-3 github" src="../img/github.png" alt="Generic placeholder image">
                         <div class="media-body">
@@ -80,6 +77,27 @@
               </div>
               </li>
         </ul>
+
+
+        <div class="container-mail">
+            <h1 class="email-title">Send Me an Email !</h1>
+            <form target="_blank" action="https://formsubmit.co/samueletanitllo@gmail.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            </form>
+          </div>
         
         <!-- INCLUDE JQUERY, POPPER.JS, AND BOOTSTRAP JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

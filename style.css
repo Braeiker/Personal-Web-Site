@@ -1,7 +1,6 @@
-
 body {
     margin: 0;
-    font-family:'League Spartan', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -16,20 +15,20 @@ body {
 }
 
 a {
-
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
     font-family: 'Roboto Slab', serif;
 }
+
 .row {
-   
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: 0px !important;
     margin-left: 0px !important; 
 }
+
 #col1 {
     display: flex;
     justify-content: center;
@@ -39,17 +38,16 @@ a {
     margin-left: 5%;
 }
 
-
 div#navbarNav {
     margin-left: 28%;
 }
-
 
 h2 {
     width: fit-content;
     margin-right: 0px;
 }
-p{
+
+p {
     width: fit-content;
     margin-right: 0px;
 }
@@ -59,20 +57,28 @@ p{
     justify-content: center;
     align-items: center;
 }
+
 /*-------------------menu---------------------*/
 
-.iconhome {
+.name-logo {
+    margin-left: 114%;
+    margin-top: -99%;
+}
+
+.icon-home {
     display: flex;
     align-items: center;
 }
+
 .nav-color {
-    background-color:#1D3557;
+    background-color: #1D3557;
 }
 
-.navbar-light .navbar-nav .nav-link.navcustomcolor {
+.navbar-light .navbar-nav .nav-link.nav-custom-color {
     color: #F1FAEE;
 }
-.navbar-light .navbar-nav .nav-link.navcustomcolor:hover {
+
+.navbar-light .navbar-nav .nav-link.nav-custom-color:hover {
     color: red;
 }
 
@@ -83,6 +89,7 @@ svg.bi.bi-code {
     height: 42px;
     width: 42px;
 }
+
 span {
     color: #F1FAEE;
 }
@@ -90,40 +97,34 @@ span {
 .icon-contacts {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-contacts.svg);
     display: block;
     float: left;
     margin-right: 4px;
 }
 
-
 .icon-home {
-    height: 24px;
-    width: 24px;
-    background-image:url(icon/icon-home.svg);
+    height: 37px;
+    width: 40px;
     display: block;
     float: left;
-    margin-right: 4px;
+    margin-right: 164px;
 }
 
 .icon-cv {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-cv.svg);
     display: block;
     float: left;
     margin-right: 4px;
 }
-.icon-aboutme {
+
+.icon-about-me {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-aboutme.svg);
     display: block;
     float: left;
     margin-right: 4px;
 }
-
-
 
 p {
     font-family: 'Roboto Slab', serif;
@@ -137,24 +138,20 @@ p {
     margin-top: 12%;
 }
 
-
 strong {
     color: red;
 }
+
 .navbar-light .navbar-toggler {
     color: #fff;
     border-color: #fff;
 }
 
-.navbar-light .navbar-toggler {
-    color: #fff !important;
-    border-color: #fff !important;
-}
- @media only screen and (max-width:992px) {
+@media only screen and (max-width:992px) {
     .navbar-nav {
-                    flex-direction: row !important;
-                    margin-left: -37%;
-                    justify-content: space-between;
-                    margin-top: 2%;
+        flex-direction: row !important;
+        margin-left: -37%;
+        justify-content: space-between;
+        margin-top: 2%;
     }
- }
+}

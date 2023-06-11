@@ -46,68 +46,94 @@ p{
 }
 /*-------------------menu---------------------*/
 
-.iconhome {
+.name-logo {
+    margin-left: 181%;
+    margin-top: -188%;
+}
+.icon-home {
     display: flex;
     align-items: center;
 }
+
 .nav-color {
-    background-color:#1D3557;
+    background-color: #1D3557;
 }
 
-.navbar-light .navbar-nav .nav-link.navcustomcolor {
+.navbar-light .navbar-nav .nav-link.nav-custom-color {
     color: #F1FAEE;
 }
-.navbar-light .navbar-nav .nav-link.navcustomcolor:hover {
+
+.navbar-light .navbar-nav .nav-link.nav-custom-color:hover {
     color: red;
 }
-
 svg.bi.bi-code {
     color: #F1FAEE;
     position: relative;
-    top: 1px;
-    height: 42px;
-    width: 42px;
+    top: -5px;
+    height: 41px;
+    width: 37px;
 }
+
 span {
     color: #F1FAEE;
+}
+
+div#navbarNav {
+    margin-left: 40%;
 }
 
 .icon-contacts {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-contacts.svg);
     display: block;
     float: left;
     margin-right: 4px;
 }
 
-
 .icon-home {
-    height: 24px;
-    width: 24px;
-    background-image:url(icon/icon-home.svg);
+    height: 37px;
+    width: 40px;
     display: block;
     float: left;
-    margin-right: 4px;
+    margin-right: 164px;
 }
 
 .icon-cv {
     height: 24px;
     width: 24px;
-    background-image:url(icon/icon-cv.svg);
-    display: block;
-    float: left;
-    margin-right: 4px;
-}
-.icon-aboutme {
-    height: 24px;
-    width: 24px;
-    background-image:url(icon/icon-aboutme.svg);
     display: block;
     float: left;
     margin-right: 4px;
 }
 
+.icon-about-me {
+    height: 24px;
+    width: 24px;
+    display: block;
+    float: left;
+    margin-right: 4px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color: #0f0505;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 89%;
+    width: 135%;
+    margin-top: 12%;
+}
+
+strong {
+    color: red;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
 
 /*---------------------ICON-------------------*/
 .icon-contacts {
@@ -206,6 +232,16 @@ p.text-gmail {
     color:#1D3557!important;
 }
 
+
+h1 {
+    color: red;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #1d3557 !important;
+    border-color: #1d3557 !important;
+}
 a {
 
     text-decoration: none;
@@ -221,6 +257,10 @@ a {
 .navbar-light .navbar-toggler {
     color: #fff !important;
     border-color: #fff !important;
+}
+
+h1.email-title {
+    color: red;
 }
 
 @media only screen and (max-width:992px) {

@@ -7,6 +7,9 @@ body {
     text-align: left;
     background-color: #0f0505;
 }
+div#navbarNav {
+    margin-left: 28%;
+}
 
 ul.navbar-nav {
     margin-left: -1%;
@@ -80,10 +83,10 @@ p{
     background-color:#1D3557;
 }
 
-.navbar-light .navbar-nav .nav-link.navcustomcolor {
+.navbar-light .navbar-nav .nav-link.nav-custom-color {
     color: #F1FAEE;
 }
-.navbar-light .navbar-nav .nav-link.navcustomcolor:hover {
+.navbar-light .navbar-nav .nav-link.nav-custom-color:hover {
     color: red;
 }
 
